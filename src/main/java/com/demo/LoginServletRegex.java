@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
                 @WebInitParam(name = "password", value = "Sachin@2910")
         }
 )
-public class LoginServlet extends HttpServlet {
+public class LoginServletRegex extends HttpServlet {
 
     private static final String NAME_REGEX = "^[A-Z][a-zA-Z]{2,}$";
     private static final String PASSWORD_REGEX = "^(?=.*[A-Z])(?=.*\\d)(?=.*[^A-Za-z0-9])(?!.*[^A-Za-z0-9].*[^A-Za-z0-9]).{8,}$";
