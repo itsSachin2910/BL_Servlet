@@ -14,6 +14,6 @@ To change this template use File | Settings | File Templates.
 </head>
 ‹body>
 <h3>Hi <%= request.getAttribute("user") %>, Login successful.</h3>
-<a href="index.html">Login Page</a>
+<a href="index.html">Logout</a>
 </body>
 </html>
